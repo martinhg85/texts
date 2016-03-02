@@ -1,0 +1,33 @@
+{
+  "name": "martinhg85/texts",
+  "description": "Herramienta para manejar textos",
+  "keywords": [
+    "laravel",
+    "artisan",
+    "texts",
+    "argentina"
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5.0",
+    "nesbot/carbon": "^1.20",
+    "illuminate/support": "~5.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "martinhg85",
+      "email": "marginhg85@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Martinhg\\Texts\\": "src/Texts"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Martinhg\\Texts\\Tests\\": "tests"
+    }
+  }
+}
