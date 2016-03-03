@@ -1,6 +1,5 @@
 <?php namespace Martinhg\Texts;
 
-use Martinhg\Texts\Facades\Texts;
 use Illuminate\Support\ServiceProvider;
 
 class TextsServiceProvider extends ServiceProvider {
